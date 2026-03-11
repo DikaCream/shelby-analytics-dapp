@@ -143,7 +143,7 @@ export default function App() {
             <Database size={16} color="#080808" strokeWidth={2.5} />
           </div>
           <span style={{ fontSize: 18, fontWeight: 800, letterSpacing: '-0.5px' }}>
-            Shelby<span style={{ color: ACCENT }}>Analytics</span>
+            Shelby<span style={{ color: ACCENT }}>Grid</span>
           </span>
         </div>
 
@@ -181,11 +181,11 @@ export default function App() {
             background: 'rgba(0,255,136,0.08)', border: `1px solid rgba(0,255,136,0.2)`,
             fontSize: 11, color: ACCENT, fontFamily: "'Space Mono', monospace", letterSpacing: 1,
           }}>
-            <Zap size={10} fill={ACCENT} /> DECENTRALIZED · PERMISSIONLESS · VERIFIABLE
+            <Zap size={10} fill={ACCENT} /> DECENTRALIZED · ACCESSIBLE · TRUSTED
           </div>
           <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 800, margin: '0 0 12px', lineHeight: 1.1, letterSpacing: '-2px' }}>
-            Data analytics,<br />
-            <span style={{ color: ACCENT }}>on-chain.</span>
+            Networked Data Storage,<br />
+            <span style={{ color: ACCENT }}>&amp; Analytics</span>
           </h1>
           <p style={{ color: '#666', maxWidth: 520, lineHeight: 1.6, margin: 0, fontSize: 15 }}>
             Upload CSVs to Shelby Protocol's decentralized blob storage. Your data is erasure-coded, committed to Aptos, and available to anyone — forever.
